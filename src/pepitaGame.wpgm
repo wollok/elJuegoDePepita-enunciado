@@ -1,8 +1,0 @@
-import pepita.*
-import comidas.*
-import extras.*
-import wollok.game.*
-
-program PepitaGame {
-	
-}
