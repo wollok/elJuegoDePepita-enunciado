@@ -1,7 +1,5 @@
-import wollok.game.*
 import pepita.*
 import comidas.*
-import extras.*
 
 describe "Tests de Pepita" {
 
@@ -13,7 +11,7 @@ describe "Tests de Pepita" {
 
 	test "Al volar pepita pierde energia" {
 		pepita.vola(1)
-		assert.equals(81, pepita.energia())
+		assert.equals(89, pepita.energia())
 	}
 
 
