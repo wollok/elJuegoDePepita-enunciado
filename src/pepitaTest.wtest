@@ -5,12 +5,12 @@ describe "Tests de Pepita" {
 
 
 	test "Al comer pepita aumenta su energia" {
-		pepita.come(manzana)
+		pepita.comer(manzana)
 		assert.equals(105, pepita.energia())
 	}
 
 	test "Al volar pepita pierde energia" {
-		pepita.vola(1)
+		pepita.volar(1)
 		assert.equals(89, pepita.energia())
 	}
 

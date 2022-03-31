@@ -16,7 +16,9 @@ object manzana {
 
 object alpiste {
 
-	method energiaQueOtorga() = 70
+	method energiaQueOtorga() {
+		return 20
+	} 
 
 }
 

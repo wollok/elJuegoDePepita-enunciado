@@ -2,14 +2,18 @@ import wollok.game.*
 
 object pepita {
 
-	var property energia = 100
+	var energia = 100
 
-	method come(comida) {
+	method comer(comida) {
 		energia = energia + comida.energiaQueOtorga()
 	}
 
-	method vola(kms) {
+	method volar(kms) {
 		energia = energia - 10 - kms 
+	}
+	
+	method energia() {
+		return energia
 	}
 
 }
