@@ -1,4 +1,3 @@
-import extras.*
 import wollok.game.*
 
 object pepita {
